@@ -1,0 +1,21 @@
+# TIK_Natarama_Sumilat
+Natarama Sumilat -XI IIS - TIK
+#include <iostream>
+
+using namespace std;
+int main(){
+    string namaSiswa[4] = {
+        "Anniko",
+        "Hanis",
+        "Samuel",
+        "Justin"
+    };
+    for (int i = 0; i <4; i++ ){
+        cout<<namaSiswa[i]<<endl<<;
+    }
+    cout<<namaSiswa[0];
+    cout<<namaSiswa[1];
+    cout<<namaSiswa[2];
+    cout<<namaSiswa[3];
+    return 0;
+}
